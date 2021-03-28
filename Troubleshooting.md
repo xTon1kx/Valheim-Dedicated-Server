@@ -19,3 +19,7 @@ You can delete or modify your user preferences for ValheimServerGUI by going to 
 ```%USERPROFILE%\AppData\LocalLow\Runeberry\ValheimServerGUI```
 
 Your preferences are stored in `userprefs.txt`.
+
+## Why is there a warning icon ⚠ next to a player's Character Name?
+
+See the answer on the [FAQs page](https://github.com/runeberry/ValheimServerGUI/wiki/Frequently-Asked-Questions#why-is-there-a-warning-icon--next-to-a-players-character-name).
