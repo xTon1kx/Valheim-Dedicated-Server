@@ -20,3 +20,9 @@ Currently, running a dedicated server is a little hacky and involves editing a b
 You can - sort of! Simply open multiple ValheimServerGUI windows and input the information for each server that you want to run, then start them up. The info for the most-recently-started server will be saved to your user preferences. Make sure you run the servers on different ports!
 
 At time of writing, ValheimServerGUI is being developed with non-technical users in mind, and may not ever have true multi-server support. If you need more powerful tools for hosting multiple servers on one machine, check out [Valheim Server Warden](https://github.com/Razzmatazzz/ValheimServerWarden), which is being developed by another team.
+
+## Why is there a warning icon ⚠ next to a player's Character Name?
+
+There are some cases where ValheimServerGUI cannot accurately match up a player's name with their Steam ID based on the server's logs. Particularly, this can happen when multiple players join the server at the same time. This is a limitation of Valheim Dedicated Server and may be fixed in a future release. In these cases, the app will take its "best guess" as to what the correct Name/Steam ID pairing should be, and show this warning when it's not 100% sure that it's been matched up right.
+
+To avoid this entirely, have each player join your server one at a time - specifically, make sure there are no two players in the "Joining" status at the same time. Once ValheimServerGUI is able to match up a Character Name / Steam ID confidently, it will remember this for future sessions so that it's less likely to happen again.
