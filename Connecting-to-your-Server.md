@@ -2,7 +2,7 @@
 
 ...then you don't need to perform any of the steps outlined below! Enabling crossplay will route all of your server's traffic through a 3rd-party provider (PlayFab). Instead of setting up port-forwarding and sharing an IP address, all you need to do is share a 6-digit **Invite Code**. 
 
-ValheimServerGUI will display your server's Invite Code on the Server Details tab as soon as it's available. Each time you restart your server, the Invite Code will change. However, once a player joins with an Invite Code, that server will be saved in their server list in Valheim itself, so they shouldn't need to input the new code.
+ValheimServerGUI will display your server's Invite Code on the Server Details tab as soon as it's available. Each time you restart your server, the Invite Code will change. However, once a player joins with an Invite Code, that server will be saved in their server list in Valheim itself, so they shouldn't need to input a new code every time they join.
 
 I would suggest enabling Crossplay and sharing the Invite Code if you just want to get started quickly, even if everyone is playing on PC. However, if you're experiencing networking issues (like disconnects or lag), then you may want to have everyone connect via IP address instead. In that case, read on!
 
