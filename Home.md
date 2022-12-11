@@ -1,6 +1,6 @@
 # ValheimServerGUI Online Manual
 
-First time user? Make sure you have Valheim Dedicated Server installed - see the guide [here](../Installing-Valheim-Dedicated-Server).
+First time user? Make sure you have Valheim Dedicated Server installed - see the guide [here](https://github.com/runeberry/ValheimServerGUI/wiki/Installing-Valheim-Dedicated-Server).
 
 Otherwise, check out any of the other guides in the navigation pane to the right. ➡
 
