@@ -17,9 +17,18 @@ Currently, running a dedicated server is a little hacky and involves editing a b
 
 ## Can you host multiple Valheim servers with ValheimServerGUI?
 
-You can - sort of! Simply open multiple ValheimServerGUI windows and input the information for each server that you want to run, then start them up. The info for the most-recently-started server will be saved to your user preferences. Make sure you run the servers on different ports!
+Yes! As of v2.0.0, ValheimServerGUI supports running multiple servers at once. Here's how you do it:
 
-At time of writing, ValheimServerGUI is being developed with non-technical users in mind, and may not ever have true multi-server support. If you need more powerful tools for hosting multiple servers on one machine, check out [Valheim Server Warden](https://github.com/Razzmatazzz/ValheimServerWarden), which is being developed by another team.
+1. Go to File > New Window. Each server will run in a separate window.
+2. In the new window, to go File > New Profile, and enter a name for this server configuration. You can now modify the server details in this window independently from the Default profile.
+3. You can save your server details at any time with File > Save Profile. Your profile is also saved each time you start the server, unless you have disabled this setting under File > Preferences.
+4. To switch between profiles in any window, go to File > Load Profile.
+
+## Does ValheimServerGUI work with server side mods?
+
+Yes! As long as you are still ultimately running your server through `valheim_server.exe`, you can use your mods in conjunction with ValheimServerGUI. For example, it's been tested and working with a Valheim Plus server configuration.
+
+_If you have a server-side mod that you're unable to use with ValheimServerGUI, please [open an issue](https://github.com/runeberry/ValheimServerGUI/issues) and let me know. I'll see if it's something I can support._
 
 ## Why is there a warning icon ⚠ next to a player's Character Name?
 
